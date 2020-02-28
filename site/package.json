@@ -1,0 +1,31 @@
+{
+  "name": "hello-wasm",
+  "version": "1.0.0",
+  "description": "test WebAssembly",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@hexaforce/hello-wasm": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexaforce/hello-wasm.git"
+  },
+  "keywords": [
+    "WebAssembly"
+  ],
+  "author": "tantaka tomokazu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexaforce/hello-wasm/issues"
+  },
+  "homepage": "https://github.com/hexaforce/hello-wasm#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
